@@ -16,8 +16,11 @@ body {
     position: relative;
 }
 
-a { color: #B50D06; }
-a:hover {
+a, .fauxlink {
+    color: #B50D06;
+    cursor: pointer;
+}
+a:hover, .fauxlink:hover {
     color: #E23F38;
     text-decoration: underline;
 }
