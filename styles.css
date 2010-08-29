@@ -1,0 +1,105 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,img,input,textarea,p,blockquote,table,th,td,a,abbr,address,caption,cite,code,dfn,em,strong,th,var,hr,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video,mark{margin:0;padding:0;background:transparent;border:0;border-collapse:collapse;border-spacing:0;font-style:normal;font-weight:normal;text-decoration:none;text-align:left;list-style:none;quotes:none;}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block;}
+input:focus,a:focus,textarea:focus{outline:0;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';}
+sup,sub{vertical-align:baseline;position:relative;top:-0.4em;}sub{top:0.4em;}
+html,body,textarea,legend{font:14px/20px 'Neuton',Arial,Verdana,sans-serif;color:#444;text-shadow:1px 1px 0 #FFF;}
+
+html {
+    text-align: center;
+    background: #EEE;
+}
+body {
+    text-align: left;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+a { color: #B50D06; }
+a:hover {
+    color: #E23F38;
+    text-decoration: underline;
+}
+
+header a.ko {
+    background: url(http://nodeknockout.com/images/voteko.png) 0 0 no-repeat;
+    height: 63px;
+    width: 126px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    text-indent: -999em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    line-height: 1.8em;
+}
+    h1 {
+        margin: 20px 0;
+        text-indent: -999em;
+        width: 300px;
+        height: 75px;
+        overflow: hidden;
+        background: url(images/logo.gif) 0 0 no-repeat;
+    }
+    h2 { font-size: 32px; }
+    h3 { font-size: 22px; }
+
+section {
+    height: 1%;
+    padding: 0 0 20px;
+    margin: 0 0 20px;
+    border-bottom: 2px solid #CCC;
+}
+    section:after {
+        content: '.';
+        display: block;
+        clear: both;
+        overflow: hidden;
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+article {
+    min-height: 345px;
+    float: left;
+    width: 380px;
+    margin: 0 20px 20px 0;
+}
+    article p {
+        margin: 0 0 20px;
+    }
+
+aside {
+    float: left;
+    width: 560px;
+}
+
+.roster li.member {
+    float: left;
+    width: 220px;
+    padding: 0 10px 0 0;
+    margin: 0;
+}
+    .roster li.member:first-child { width: 240px; }
+    .roster h3 {
+        margin: 0 0 5px 0;
+    }
+    .roster img {
+        float: left;
+        margin: 0 8px 0 0;
+        width: 50px;
+        height: 50px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 1px 1px 0 #FFF;
+    }
