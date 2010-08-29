@@ -16,14 +16,37 @@ body {
     position: relative;
 }
 
-a, .fauxlink {
+a {
     color: #B50D06;
     cursor: pointer;
 }
-a:hover, .fauxlink:hover {
+a:hover {
     color: #E23F38;
     text-decoration: underline;
 }
+
+.fauxlink {
+    padding: 0 10px;
+    line-height: 30px;
+    color: #FFF;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.5);
+    background: #B50D06 url(images/button.png) 0 0 repeat-x;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #F06862;
+    border-right-color: #750804;
+    border-bottom-color: #750804;
+    cursor: pointer;
+}
+    .fauxlink:active {
+        background-position: 0 bottom;
+        border: 1px solid #750804;
+        border-right-color: #F06862;
+        border-bottom-color: #F06862;
+        text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+    }
 
 header a.ko {
     background: url(http://nodeknockout.com/images/voteko.png) 0 0 no-repeat;
